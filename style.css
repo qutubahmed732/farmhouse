@@ -56,10 +56,22 @@ img {
 }
 
 h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
   text-align: center;
   color: white;
-  text-decoration: underline sandybrown 2px;
-  text-underline-offset: 5px;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: sandybrown;
+  position: absolute;
+  top: 110%;
+  right: 24%;
 }
 
 .lists {
@@ -69,7 +81,7 @@ h1 {
 }
 
 .lists ul {
-  margin-top: 10px;
+  margin-top: 20px;
   list-style-position: inside;
   font-size: 14px;
   display: flex;
@@ -86,7 +98,7 @@ h1 {
 }
 
 .center {
-  margin-top: 38px !important;
+  margin-top: 50px !important;
 }
 
 footer {

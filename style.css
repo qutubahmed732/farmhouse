@@ -55,13 +55,12 @@ img {
   object-fit: cover;
 }
 
-.cool {
+.pool {
   object-position: top;
 }
 
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 100;
   font-size: 2rem;
   text-align: center;
   color: white;
@@ -82,6 +81,7 @@ h1::after {
   display: flex;
   justify-content: space-evenly;
   color: white;
+  padding-inline: 2rem;
 }
 
 .lists ul {
@@ -109,7 +109,7 @@ footer {
   padding: 10px;
   width: 93%;
   color: white;
-  margin: 60px auto 0 auto;
+  margin: 10% auto 0 auto;
   text-align: center;
 }
 

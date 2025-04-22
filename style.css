@@ -106,8 +106,13 @@ h1::after {
 }
 
 footer {
+  padding: 10px;
   width: 93%;
-  background-color: white;
-  margin: 80px auto 0 auto;
+  color: white;
+  margin: 60px auto 0 auto;
   text-align: center;
+}
+
+footer p:nth-of-type(2){
+  margin-top: 10px;
 }

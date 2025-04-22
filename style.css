@@ -55,6 +55,10 @@ img {
   object-fit: cover;
 }
 
+.cool {
+  object-position: top;
+}
+
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 100;
